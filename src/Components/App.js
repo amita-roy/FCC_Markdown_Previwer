@@ -4,6 +4,7 @@ import { createGlobalStyle } from "styled-components";
 import Preview from "./Preview";
 import Editor from "./Editor";
 import { Placeholder } from "./Placeholder";
+import Header from "./Header";
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -20,8 +21,14 @@ const GlobalStyle = createGlobalStyle`
 
 const Container = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 40px;
+`;
+
+const EditorAndPreview = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
 `;
 
 class App extends Component {
@@ -35,8 +42,12 @@ class App extends Component {
     return (
       <Container>
         <GlobalStyle />
-        <Editor value={this.state.value} onChange={this.onChange} />
-        <Preview value={this.state.value} />
+        <Header />
+        <EditorAndPreview>
+          <Editor value={this.state.value} onChange={this.onChange} />
+
+          <Preview value={this.state.value} />
+        </EditorAndPreview>
       </Container>
     );
   }
