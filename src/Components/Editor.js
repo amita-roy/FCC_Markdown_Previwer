@@ -4,15 +4,16 @@ import styled from "styled-components";
 const Container = styled.div`
   border: 1px solid lightgrey;
   border-radius: 6px;
-  width: 40%;
-  padding: 10px;
+  width: 45%;
   height: calc(100vh - 80px);
 
   textarea {
     height: 100%;
     width: 100%;
+    padding: 20px 40px;
     overflow: scroll;
     border: none;
+
     font-size: 16px;
   }
   textarea:focus {

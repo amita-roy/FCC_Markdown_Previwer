@@ -5,8 +5,8 @@ import marked from "marked";
 const Container = styled.div`
   border: 1px solid lightgrey;
   border-radius: 6px;
-  width: 50%;
-  padding: 10px;
+  width: 45%;
+  padding: 20px 40px;
   overflow: scroll;
   height: calc(100vh - 80px);
 `;
@@ -21,7 +21,7 @@ marked.setOptions({
 
 const renderer = new marked.Renderer();
 renderer.link = function(href, title, text) {
-  return `<a target="_blank" href="${href}">${text}` + "</a>";
+  return `<a target="_blank" href="${href}">${text}</a>`;
 };
 
 class Preview extends Component {
