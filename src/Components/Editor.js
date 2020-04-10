@@ -37,6 +37,7 @@ class Editor extends Component {
         <h3>Editor</h3>
         <Container>
           <textarea
+            id="editor"
             value={this.props.value}
             onChange={this.props.onChange}
           ></textarea>

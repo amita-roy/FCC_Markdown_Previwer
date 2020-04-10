@@ -25,11 +25,11 @@ marked.setOptions({
   tables: true,
   pedantic: false,
   smartLists: true,
-  langPrefix: "language-"
+  langPrefix: "language-",
 });
 
 const renderer = new marked.Renderer();
-renderer.link = function(href, title, text) {
+renderer.link = function (href, title, text) {
   return `<a target="_blank" href="${href}">${text}</a>`;
 };
 
