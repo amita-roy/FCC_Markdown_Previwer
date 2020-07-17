@@ -3,7 +3,7 @@
 ## freeCodeCamp Front End Libraries Projects - Build a Markdown Previewer
 
 > This project was created while I was learning code from freeCodeCamp.
-> Below are the test that I needed to pass while creating this project. Website is not responsive as responsive design was not in requirement.
+> Below are the test that I needed to pass while creating this project.
 
 - User Story #1: I can see a textarea element with a corresponding id="editor".
 
