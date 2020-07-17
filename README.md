@@ -1,8 +1,9 @@
 # Markdown Previewer
+
 ## freeCodeCamp Front End Libraries Projects - Build a Markdown Previewer
 
->This project was created while I was learning code from freeCodeCamp.
->Below are the test that I needed to pass while creating this project. Website is not responsive as responsive design was not in requirement.
+> This project was created while I was learning code from freeCodeCamp.
+> Below are the test that I needed to pass while creating this project. Website is not responsive as responsive design was not in requirement.
 
 - User Story #1: I can see a textarea element with a corresponding id="editor".
 
@@ -15,6 +16,29 @@
 - User Story #5: When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a header (H1 size), a sub header (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
 
 - User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
+
+![screenshot](public/Screenshot-1.png)
+
+## Built With
+
+- javascript
+- React
+- Styled Components
+
+## Live Demo 🔴
+
+[Markdown Previewer](https://heuristic-hopper-019851.netlify.app/)
+
+## Getting Started
+
+To get a local copy up and running follow these steps:
+
+- Download or clone this this repository and open the zip file to a location of your choosing.
+- Open the folder in your code editor.
+- run "npm install" in terminal or text editor to install all the dependencies from npm
+- run "npm start" to open the page in the browser
+
+### Prerequisites
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -85,11 +109,29 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+## Author
 
-## Built With
+👤 **Amita Roy**
 
-- javascript
-- React
+- Github: [@Amita-Roy](https://github.com/Amita-Roy)
+- Twitter: [@AmitaRoy14](https://twitter.com/AmitaRoy14)
+- Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68/)
+- Email: amita.roy@workmail.com
 
-## Live Demo
+## 🤝 Contributing
 
+The most valuable contribution you can make is honest feedback!
+
+Let us know what you think of our work by getting in touch via social media or by creating an issue here on GitHub.
+
+## Show your support
+
+Give a ⭐️ if you like this project! Follow us and be the first to know about our next project!
+
+## Acknowledgments
+
+- Thanks to [freeCodeCamp](https://www.freecodecamp.org/), for providing the educational resources to learn.
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
